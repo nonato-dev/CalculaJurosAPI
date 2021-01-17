@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxaJuros.API", "..\Juros\TaxaJuros.API.csproj", "{EAAD4A78-A9CF-4254-AE92-03AF6C23CA9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaJuros.API", "CalculaJuros.API.csproj", "{5BC993F4-C298-4D5C-8B68-915CC73F08CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{8DDEE41B-1BF1-46B6-9C4D-68DCE2A95916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAAD4A78-A9CF-4254-AE92-03AF6C23CA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAD4A78-A9CF-4254-AE92-03AF6C23CA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAD4A78-A9CF-4254-AE92-03AF6C23CA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAD4A78-A9CF-4254-AE92-03AF6C23CA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC993F4-C298-4D5C-8B68-915CC73F08CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC993F4-C298-4D5C-8B68-915CC73F08CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC993F4-C298-4D5C-8B68-915CC73F08CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC993F4-C298-4D5C-8B68-915CC73F08CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDEE41B-1BF1-46B6-9C4D-68DCE2A95916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDEE41B-1BF1-46B6-9C4D-68DCE2A95916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDEE41B-1BF1-46B6-9C4D-68DCE2A95916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDEE41B-1BF1-46B6-9C4D-68DCE2A95916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE3FF6AE-999B-4812-BD90-54FF7624CFD1}
+	EndGlobalSection
+EndGlobal
