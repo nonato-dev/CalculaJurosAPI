@@ -15,7 +15,7 @@ namespace CalculaJuros.API.Controllers
 
         public string Get()
         {
-            return "git Url";
+            return "https://github.com/nonato-dev/CalculaJurosAPI";
         }
     }
 }
