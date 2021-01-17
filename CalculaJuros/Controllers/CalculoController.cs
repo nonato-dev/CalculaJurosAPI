@@ -28,8 +28,8 @@ namespace CalculaJuros.API.Controllers
             var client = new HttpClient();
             try
             {
-                var strUrlEnderecoAPI = "https://localhost:44383/taxaJuros";
-                var request = new HttpRequestMessage(HttpMethod.Get, strUrlEnderecoAPI);
+                var strUrlEnderecoTaxaJurosAPI = "https://localhost:44383/taxaJuros";
+                var request = new HttpRequestMessage(HttpMethod.Get, strUrlEnderecoTaxaJurosAPI);
                 request.Headers.Add("Accept", "application/json");
                 
                 var response = client.SendAsync(request).Result;
